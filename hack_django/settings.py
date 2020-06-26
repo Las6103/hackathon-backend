@@ -113,7 +113,7 @@ WSGI_APPLICATION = 'hack_django.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'hack',
         'USER': 'hackuser',
         'PASSWORD': 'hack',
