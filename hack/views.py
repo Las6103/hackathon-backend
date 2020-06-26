@@ -2,11 +2,6 @@ from django.shortcuts import render
 from rest_framework import generics, permissions
 from .serializers import ArticleSerializer
 from .models import Article
-<<<<<<< HEAD
-# import os
-=======
-import os
->>>>>>> fixing permissions
 
 
 class ArticleList(generics.ListCreateAPIView):
