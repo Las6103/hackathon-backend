@@ -2,6 +2,7 @@ from django.shortcuts import render
 from rest_framework import generics, permissions
 from .serializers import ArticleSerializer
 from .models import Article
+# import os
 
 
 class ArticleList(generics.ListCreateAPIView):
