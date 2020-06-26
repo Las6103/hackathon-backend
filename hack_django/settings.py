@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     'hack',
     'django_extensions',
     'rest_framework',
-    'accounts'
-    'corsheaders',
+    'accounts',
+    'corsheaders'
 ]
 
 REST_FRAMEWORK = {
